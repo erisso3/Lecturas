@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Thomas Cormen - Capitulo 10\\Estructuras de Datos Elementales}
+\author{Erick Mitchell Echeverría Celaya }
+\date{2 de septiembre de 2018}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+La estructura de datos como su nombre lo dice busca la ampliación de organizar u ordenar la información para tener un mejor control sobre ella, así poder manipularla, buscar e insertar datos de la manera más eficiente. Esto se puede lograr mediante diferentes técnicas como pilas, colas, listas enlazadas, arrays, arboles ,etcétera.
+\section{Pilas y colas}
+Las pilas y las colas son un tipo de listas donde los elementos se eliminan por una operación del conjunto.
+\subsection{Pilas}
+Las pilas son un tipo de listas que tienen la particularidad de sólo poder eliminar o insertar en la cima de la lista. A estas acciones se le conocen como apilar y desopilar y conlleva a que el último elemento que ingresa a la pila sea el primero en salir a lo cual se le conoce como LIFO.
+En la pila la operación para poder insertar un dato en ella se le conoce como PUSH y para poder eliminarlo se llama POP, el cual hace alusión a las pilas físicas ya que cuando algún objeto nuevo entra a la pila ese toma el primer lugar y va recorriendo a los demás.
+\subsection{Colas}
+La cola es muy parecido a la pila solo que la diferencia más grande es la FIFO ya que los datos almacenados van tomando la última posición a diferencia de las pilas que toman las primera, haciendo alusión a su nombre también.
+\section{Listas enlazadas}
+Una lista enlazada donde la información se organiza de una forma lineal. Este  tipo de estructura de datos es similar a las arrays con la diferencia de no sabemos la cantidad de elementos que va a almacenar. Estas listas se componen de nodos los cuales tienen dos de funciones, el primero es el elemento que va a contener  y el segundo es una referencia al siguiente elemento de la lista.
+\subsection{Buscando una lista vinculada}
+El proceso consiste en buscar o encontrar un elemento en una lista, montante una búsqueda lineal y mediante la ayuda de un puntero devolverá ese elemento.
+\subsection{Eliminar de una lista vinculada}
+Este proceso elimina cualquier elemento de una lista, ha ese elemento se le dará un puntero, para posteriormente splices al elemento fuera de la lista y así actualizar los punteros.
+\subsection{Centinelas}
+Las centinelas es un objeto que permite simplificar las condiciones del entorno. Esté elemento es ficticio donde cada elemento apunta a otro elemento y nunca a un nulo.
+\section{Representando árboles enraizados}
+\subsection{Árboles binarios}
+Los arboles binarios se componen de una nueva clase de nodo donde cada uno contiene un valor, una característica esencial de los arboles binarios es que la inserción de sus elementos se realizan siguiendo un criterio, si el item del nodo a insertar es menor a su nodo primario, la inserción se realiza por la izquierda y en caso contrario la inserción se realiza por el lado derecho y como consecuencia de esto nuestro árbol siempre estará organizado de tal manera que los secundarios izquierdos de cada nodo serán menores a él y los derechos serán mayores, lo cual nos permite realizar búsquedas muy eficientes.
+
+
+
+\section{Conclusion}
+La estructura de datos nos brinda una gran variedad de ordenamiento de codigo, estas tecnicas son de gran ayuda para los programadores ya que hacen que los codigos extensos sean mas ordenados, tambien permite reutilizar cierta funcion de un codigo para emplearla en otro.
+
+\bibliographystyle{plain}
+\end{document}
